@@ -1,0 +1,171 @@
+n=1000,rate=1:-1
+train : base test : b
+          qini      mape      copc
+mean  0.585278  0.408304  1.731624
+std   0.071789  0.077749  0.231094
+train : base test : g
+          qini      mape      copc
+mean  0.221526  0.272826  0.968651
+std   0.019394  0.088646  0.146562
+train : r1 our test : b
+          qini      mape      copc
+mean  0.593472  0.482603  1.958466
+std   0.026841  0.083064  0.288041
+train : r1 our test : g
+          qini      mape     copc
+mean  0.241701  0.202234  1.21025
+std   0.020894  0.082827  0.20401
+train : r1 random test : b
+          qini      mape      copc
+mean  0.581956  0.364761  1.604467
+std   0.036438  0.098921  0.294105
+train : r1 random test : g
+          qini      mape      copc
+mean  0.235568  0.200485  0.967816
+std   0.018646  0.075857  0.146500
+train : r3 our test : b
+          qini      mape      copc
+mean  0.545773  0.328359  1.516814
+std   0.056889  0.079258  0.206710
+train : r3 our test : g
+          qini      mape      copc
+mean  0.250462  0.218816  0.927264
+std   0.027237  0.159826  0.149671
+train : r3 random test : b
+          qini      mape      copc
+mean  0.516962  0.380017  1.601168
+std   0.090401  0.109324  0.368659
+train : r3 random test : g
+          qini      mape      copc
+mean  0.221766  0.259213  0.972946
+std   0.024079  0.124832  0.226222
+train : r5 our test : b
+          qini      mape      copc
+mean  0.550408  0.326225  1.540597
+std   0.041426  0.065351  0.176460
+train : r5 our test : g
+          qini      mape      copc
+mean  0.264468  0.116791  0.976424
+std   0.009836  0.055483  0.108368
+train : r5 random test : b
+          qini      mape      copc
+mean  0.583626  0.291009  1.437020
+std   0.040949  0.083829  0.176713
+train : r5 random test : g
+         qini      mape      copc
+mean  0.25503  0.267097  0.896270
+std   0.01056  0.098337  0.100177
+n=5000,rate=1:-1
+train : base test : b
+          qini      mape      copc
+mean  0.364934  0.289804  1.449705
+std   0.027073  0.054896  0.121844
+train : base test : g
+          qini      mape      copc
+mean  0.258717  0.090626  1.047265
+std   0.007219  0.037371  0.089866
+train : r1 our test : b
+          qini      mape      copc
+mean  0.414962  0.257179  1.409029
+std   0.026023  0.078897  0.187377
+train : r1 our test : g
+          qini      mape      copc
+mean  0.298725  0.094686  1.022646
+std   0.011096  0.064934  0.131487
+train : r1 random test : b
+          qini      mape      copc
+mean  0.428192  0.243781  1.366094
+std   0.046773  0.052350  0.112707
+train : r1 random test : g
+          qini      mape      copc
+mean  0.295948  0.079952  0.986162
+std   0.020191  0.094255  0.094369
+train : r3 our test : b
+          qini      mape      copc
+mean  0.445539  0.229187  1.346288
+std   0.024719  0.061040  0.145500
+train : r3 our test : g
+          qini      mape      copc
+mean  0.322620  0.078339  0.981308
+std   0.005227  0.073988  0.101330
+train : r3 random test : b
+          qini      mape      copc
+mean  0.428478  0.209986  1.305447
+std   0.025019  0.067135  0.133923
+train : r3 random test : g
+          qini      mape      copc
+mean  0.295641  0.101292  0.949521
+std   0.008286  0.068800  0.092315
+train : r5 our test : b
+          qini      mape      copc
+mean  0.443859  0.211452  1.313163
+std   0.021715  0.059247  0.112674
+train : r5 our test : g
+          qini      mape      copc
+mean  0.328351  0.077908  0.961149
+std   0.006134  0.066277  0.078875
+train : r5 random test : b
+          qini      mape      copc
+mean  0.396066  0.205680  1.296917
+std   0.020148  0.073364  0.138035
+train : r5 random test : g
+          qini      mape      copc
+mean  0.290794  0.117600  0.958387
+std   0.012216  0.075929  0.101349
+n=10000,rate=1:-1
+train : base test : b
+          qini      mape      copc
+mean  0.345569  0.183699  1.261038
+std   0.043732  0.126380  0.287990
+train : base test : g
+          qini      mape      copc
+mean  0.298961  0.169907  1.002825
+std   0.023843  0.101356  0.209748
+train : r1 our test : b
+          qini      mape      copc
+mean  0.363865  0.213849  1.321259
+std   0.025412  0.084893  0.180761
+train : r1 our test : g
+          qini      mape     copc
+mean  0.320372  0.111645  1.07178
+std   0.010827  0.076512  0.14945
+train : r1 random test : b
+          qini      mape      copc
+mean  0.363204  0.121909  1.130084
+std   0.010390  0.035089  0.080023
+train : r1 random test : g
+          qini      mape      copc
+mean  0.329081  0.114127  0.914436
+std   0.006385  0.065785  0.059911
+train : r3 our test : b
+          qini      mape      copc
+mean  0.357017  0.174490  1.237386
+std   0.010031  0.045228  0.093031
+train : r3 our test : g
+          qini      mape      copc
+mean  0.340933  0.057123  1.021188
+std   0.003816  0.046194  0.072791
+train : r3 random test : b
+          qini      mape      copc
+mean  0.373884  0.189373  1.240913
+std   0.026513  0.066832  0.169628
+train : r3 random test : g
+          qini      mape      copc
+mean  0.327047  0.107738  0.991935
+std   0.010646  0.088850  0.124662
+train : r5 our test : b
+          qini      mape      copc
+mean  0.357173  0.179063  1.244751
+std   0.009188  0.041121  0.088778
+train : r5 our test : g
+          qini      mape      copc
+mean  0.346422  0.054619  1.029660
+std   0.002137  0.042798  0.071658
+train : r5 random test : b
+          qini      mape      copc
+mean  0.378843  0.154322  1.187920
+std   0.020468  0.063965  0.134383
+train : r5 random test : g
+          qini      mape      copc
+mean  0.327543  0.108379  0.960755
+std   0.007575  0.073252  0.104929

@@ -1,7 +1,7 @@
 import subprocess
 import tqdm
 
-for data_size in [1000,5000]:
+for data_size in [1000,5000,10000]:
     print(f'data_size:{data_size}')
     for rate in tqdm.tqdm([1,3,5]):
         num = 10

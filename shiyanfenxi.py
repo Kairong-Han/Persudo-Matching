@@ -12,7 +12,7 @@ args = parser.parse_args()
 n = args.n
 rate = args.r
 
-with open('result.txt','a+') as f:
+with open('result_tarnet.txt','a+') as f:
     f.write(f'n={n},rate=1:{rate}\n')
     column_names = ['qini', 'mape', 'copc']
     df = pd.read_csv("log.txt",header=None,names=column_names)
